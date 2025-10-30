@@ -1,0 +1,43 @@
+Symbole
+début - Fin
+comment représentez-vous dans un flow chart, cette notion ?! quel symbole devez-vous utiliser ?
+:Par un ovale avec écrit Debut-Fin ou Start-End.
+
+dans un flow chart, est-ce que vous indiquer le nom de la fct ?
+:Non, un flow chart comporte seulement des actions ou des decision avec les noms de variable dans celle-ci.
+
+sous-routine
+comment définissez/déclarez-vous les paramètres (entrée - sortie) ?
+:Par un rectangle contenant les variables à déclarer avec leur paramètres.
+
+Algorithme
+Structure
+comment symbolisez-vous la notion de paramètre d'entrée à une fct ?
+:par un parallélogramme avec le nom de la fonction et entre parenthese son paramètre d'entrée.
+
+comment symbolisez-vous la notion de retour de variable(s) ?
+:Par un parallélogramme avec écrit retourner Nomfonction (x).
+
+Variables
+quelles sont les caractéristiques des variables Heure, minute, heureBCD, minuteBCD ?
+:les variables heure et minute sont en format numérique et les variables heureBCD et minuteBCD sont en heure convertie pour afficher sur un 7seg.
+
+dans un flow chart, comment indiquez-vous un type sans que celui-ci ne soit lié à un langage précis ?!
+:après la déclaration de la variable mettre entre parenthese son type par exemple (entier) ou (décimal)
+
+une variable 8bits, de quel type cela peut être ?!
+:c'est un type char.
+
+quelles sont les caractéristiques du type int ?
+:4 octet, donnés entier, peut être signié ou non signié.
+
+Calculs
+pensez-vous que la notion du masquage fonctionne comme vous l'avez inscrit ? essayez votre/vos instruction avec un exemple prenez la valeur 12 pour votre variable heure
+:Non, si la valeur était deja en BCD celàs fonctionnerait. Il faut diviser les dizaine par 10 et faire le modulo 10 des unite. Faire l'appel de sous-routine pour la conversion BCD.
+(voir flow chart)
+Appel sous-routine
+comment récupérez-vous les valeurs BCD de votre appel de sous-routine ?
+: je les récupère dans une nouvelle variable HeuresBCD et MinutesBCD qui seront prête à etre affichée en sortie de ma fonction.
+
+quels sont les paramètres que vous donnez à cette sous-routine ?
+: je donne les variable des dizaine et des unite (dizaine_H, dizaine_M, unite_H, unite_M).
